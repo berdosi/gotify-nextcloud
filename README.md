@@ -1,5 +1,7 @@
 # Gotify-Nextcloud
 
+**You should head over to the upstream repository: [Gotify-Nextcloud](https://github.com/mrchainman/Gotify-Nextcloud). This repository won't get frequent updates anymore.**
+
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)  
 
 A Python script that fetches notifications from the Nextcloud notification API and pushes them to a Gotify server.

@@ -43,7 +43,12 @@ if __name__ == "__main__":
                         'date': date,
                         'title': title, 
                         'message': msg, 
-                        'priority': notification_priority})
+                        'priority': notification_priority,
+                        'extras': {
+                            'client::display': {
+                                'contentType': 'text/markdown'
+                            }
+                        }})
                 # Add the message to the list
                 notifications.append(notification_id)
         # wait before checking again
